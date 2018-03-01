@@ -2,7 +2,7 @@ include<stdio.h>
 int main()
 {
 	int n;
-	unsigned int count = 0;
+ int count = 0;
     scanf("%d",&n);
     while (n)
     {
