@@ -2,7 +2,7 @@
 #include<stdlib.h>
 void main()
 {
-	int  n1;
+	int  n;
 	int a[100],table[100],count[100]={0}; //table maintain the distinct entries
 	scanf("%d",&n);                       //count maintain the details of no of occurance
 	int k=0,i,j;
