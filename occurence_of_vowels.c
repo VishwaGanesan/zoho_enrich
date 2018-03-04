@@ -2,11 +2,11 @@
 int main()
 {
 	int a[200]={0},i;
-	char s[100],c[]="AEIOUaeiou";
+	char s[1000],c[]="aeiou";
 	scanf("%[^\n]",s);
 	for(i=0;s[i]!='\0';i++)
 	{
-		a[s[i]]++;
+		a[tolower(s[i])]++;       
 	}
 	for(i=0;c[i]!='\0';i++)
 	{
