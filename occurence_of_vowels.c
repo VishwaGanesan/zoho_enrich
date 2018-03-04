@@ -12,7 +12,7 @@ int main()
 	{
 		if(a[c[i]]!=0)
 		{
-			printf("%c %d\n",c[i],a[c[i]]);
+			printf("%c --> %d\n",c[i],a[c[i]]);
 		}
 	}
 }
