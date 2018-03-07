@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a[200]={0},i;
+	int a[123]={0},i;
 	char s[1000],c[]="aeiou";
 	scanf("%[^\n]",s);
 	for(i=0;s[i]!='\0';i++)
