@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int n,i,j,k,up=1,mp=0;
-	float b[30][30],ele,ans=1;
+	float b[30][30],ele,ans=1;                             //it work for 0 in future update
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
