@@ -47,9 +47,9 @@ void main()
 		}
 		a[ip][jp]=++i_t;
 	}
-	for(i=0;i<=n;i++)
+	for(i=0;i<n;i++)
 	{
-		for(j=0;j<=n;j++)
+		for(j=0;j<n;j++)
 		{
 			printf("%d ",a[i][j]);
 		}
