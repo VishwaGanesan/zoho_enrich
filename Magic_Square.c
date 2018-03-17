@@ -4,8 +4,8 @@ void main()
 	int n,a[100][100]={0};
 	int count,ip,jp,i_t=1,i,j;
 	scanf("%d",&n);
-	ip=n/2,jp=ip,count=n*n;
-	a[--ip][jp]=1;
+	ip=0,jp=n/2,count=n*n;
+	a[ip][jp]=1;
 	while(i_t<count)
 	{
 		jp++,ip--;
