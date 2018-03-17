@@ -6,13 +6,13 @@ void main()
 	scanf("%d",&n);
 	ip=n/2,jp=ip,count=n*n;
 	a[--ip][jp]=1;
-	while(i_t<=count)
+	while(i_t<count)
 	{
 		jp++,ip--;
-		if(jp>=n)
+	   if(jp>=n)
 		{
 			jp=0;
-	     }
+	 	}
 		if(ip<0)
 		{
 			ip=n-1;
@@ -28,10 +28,10 @@ void main()
 		if(a[ip][jp]!=0)
 		{
 			ip--,jp--;
-			 if(jp>=n)
+			if(jp>=n)
 			{
 				jp=0;
-	 		}
+		 	}
 			if(ip<0)
 			{
 				ip=n-1;
