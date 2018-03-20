@@ -1,10 +1,8 @@
 #include<stdio.h>
-int main()
+long int conversion(int n,int base)
 {
-	int n,base,s;
-	int a[100],i,k=0;
+	int a[100],i,k=0,s;
 	long int ans=0;
-	scanf("%d %d",&n,&base);
 	while(n>0)
 	{
 		s=n%base;
@@ -15,5 +13,11 @@ int main()
 	{
 		ans=(ans*10)+a[i];
 	} 
-	printf("%ld ",ans);
+	return ans;
+}
+int main()
+{
+	int n,base;
+	scanf("%d %d",&n,&base);
+	printf("%ld ",conversion(n,base));
 }
