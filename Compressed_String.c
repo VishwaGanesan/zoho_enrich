@@ -18,6 +18,10 @@ int main()
 	}
 	for(i=0;i<k;i++)
 	{
-		printf("%c%d",ans[i],count[i]);
-	}
+		printf("%c",ans[i]);
+		if(count[i]>1)
+		{
+			printf("%d",count[i]);
+		}
+	} 
 }
