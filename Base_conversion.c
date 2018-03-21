@@ -1,19 +1,16 @@
 #include<stdio.h>
 long int conversion(int n,int base)
 {
-	int a[100],i,k=0,s;
-	long int ans=0;
+	int i,k=1,s;
+	long int a=0;
 	while(n>0)
 	{
 		s=n%base;
-		a[k++]=s;
+		a+=s*k;
 		n/=base;
+		k=k*10;
 	}
-	for(i=k-1;i>=0;i--)
-	{
-		ans=(ans*10)+a[i];
-	} 
-	return ans;
+	return a;
 }
 int main()
 {
