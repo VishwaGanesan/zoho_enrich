@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include<string.h>
-void make_it_null(int *a)
+#include<string.h>                             // this program consider small & capital letters are same 
+void make_it_null(int *a)                       
 {
 	int i;
 	for(i=0;i<26;i++)
